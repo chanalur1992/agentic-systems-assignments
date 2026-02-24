@@ -1,5 +1,6 @@
-from unittest   import TestCase
-from num_operations import Number_operations
+from unittest import TestCase
+from python_essentials_1.num_operations import Number_operations
+
 class TestNumberOperations(TestCase):
     def test_valid_input(self):
         # Test with valid integer inputs
