@@ -22,4 +22,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run tests
       run: |
-        python -m unittest discover -s python_essentials_1.num_operations,python_essentials_1.user_info
+        # Discover all tests under the package
+        python -m unittest discover -s . -p "test_*.py"
