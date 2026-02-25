@@ -1,5 +1,5 @@
 import unittest
-from python_essentials_2.StudentMarks import StudentMarks, last_three_avg
+from python_essentials_2.StudentMarks_avg import StudentMarks,last_three_avg
 class TestLastThreeAvg(unittest.TestCase):
     def test_valid_input(self):
         # Test with valid input
